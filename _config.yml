@@ -1,17 +1,111 @@
 # Site settings
 title: Adrian Sgro Webpage
-description: A blog about lorem ipsum dolor sit amet
+description: Game developer with several years of experience.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
+#------------------------------------------------------------------------------------------------------------------
+
 # User settings
 username: Adrian Sgro
-user_description: Bicycle rights irony actually neutra typewriter lyft. Man bun taxidermy put a bird on it, umami yr ramps pop-up ugh bushwick chia lo-fi. Occupy bitters pour-over snackwave you probably haven't heard of them small batch. Cornhole mustache man bun letterpress echo park VHS.
 user_title: Game Developer
 email: Owinmowe@gmail.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+github_username:  Owinmowe
+itchio_username:  Owinmowe
+
+#------------------------------------------------------------------------------------------------------------------
+
+# Projects settings
+
+projects_title: Profesional Experience
+
+projects_content_title_1: Hipercasual Games
+projects_content_subtitle_1: Hipercasual Games
+
+projects_content_title_2: Agite
+projects_content_subtitle_2: Agite
+
+projects_content_title_3: Blasted Gnomes
+projects_content_subtitle_3: Blasted Gnomes
+
+projects_content_title_4: Liberators Chronicles
+projects_content_subtitle_4: Liberators Chronicles
+
+projects_content_title_5: Eggscape
+projects_content_subtitle_5: Eggscape
+
+#------------------------------------------------------------------------------------------------------------------
+
+# About settings
+about_title: Game Developer
+about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline. Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
+
+about_code_title: Code
+about_code_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+
+about_engines_title: Engines
+about_engines_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+
+about_version_control_title: Version Control
+about_version_control_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+
+about_backend_title: Backend
+about_backend_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+
+about_organization_tools_title: Organization Tools
+about_organization_tools_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+
+#------------------------------------------------------------------------------------------------------------------
+
+# Skills settings
+skills_title: Developer Skills
+skills_description: This are skills i got over the years developing games in learning and professional enviroments.
+
+skills_programming_title: Programming Concepts
+skills_programming_content_1: Solid knowledge of <b>OOP</b>
+skills_programming_content_2: Solid Experience in <b>SOLID</b> and <b>KISS</b> principles.
+skills_programming_content_3: Solid Knowledge and experience in <b>programming patterns</b> applied to videogames such as <b>Builder, Factory, Flyweight, Object Pooling, Observer, Command, Service Locator, Strategy</b> and others.
+skills_programming_content_4: Knowledge and experience in different architectural patterns such as <b>MVC, MVP or ECS</b>.
+skills_programming_content_5: Knowledge of common game development algorithms such as <b>FSM, Boids, A* pathfinding, Voronoi</b> and many others.
+skills_programming_content_6: Knowledge of <b>Algebra y Physics</b> with a strong handling of <b>Vectors, Quaternions, Matrixs, Planes, Collisions</b> and other related mathematical concepts.
+skills_programming_content_7: Knowledge of <b>Parallel Programming</b>.
+skills_programming_content_8: Knowledge of the rendering pipeline including <b>Shader Programming</b> (Mainly <b>HLSL/GLSL</b>).
+
+skills_csharp_title: C# Specifics
+skills_csharp_content_1: Solid knowledge of C# specific characterist such as <b>Attributes, STL, LINQ, Lambdas, Predicates, Async/Await, Yield Return</b> and others.
+skills_csharp_content_2: Knowledge of handling and optimization of memory usage, such as <b>GC</b> functionalities, Struct/Class difference and others.
+skills_csharp_content_3: Knowledge and experience in <b>Assemblies Handling</b>.
+skills_csharp_content_4: Knowledge and experience in <b>Reflection</b>.
+skills_csharp_content_5: Basic Knowledge of <b>WFP</b>. 
+
+skills_unity_title: Unity Specifics
+skills_unity_content_1: Solid Knowledge and experience in all basic systems of the engine.
+skills_unity_content_2: Solid Knowledge and experience in all target platforms being <b>Android</b> and <b>WebGL</b> my main expertice.
+skills_unity_content_3: Solid Knowledge and experience of <b>assets import and integration pipelines</b>.
+skills_unity_content_4: Solid Knowledge and experience of <b>UI Handling</b>, including functionality to resizing to anchors.
+skills_unity_content_5: Knowledge and experience with editor scripts such as <b>CustomEditors</b>, <b>EditorWindows</b> and <b>PropertyDrawers</b> in both <b>IMGUI</b> and <b>VisualElement</b> pipelines.
+skills_unity_content_6: Knowledge and experience in different Unity Packages such as <b>Addressables</b>, <b>New Input System</b>, <b>Localization</b>, and several others.
+skills_unity_content_7: Knowledge and experience in interfaces programming for <b>RESTful API</b> through <b>WebRequests</b>.
+skills_unity_content_8: Knowledge and experience in <b>multiplayer games</b> with <b>Mirror/Fusion</b> with different multiplayer architectures.
+skills_unity_content_9: Knowledge and experience about all different render pipelines (<b>Built-in, URP, HDRP</b>) including material/shaders handling through <b>HLSL</b> or <b>Shadergraph</b>.
+skills_unity_content_10: Knowledge and experience in <b>Unit-Testing</b> for general logic and engine specific logic.
+
+skills_cplusplus_title: C++ Specifics
+skills_cplusplus_content_1: Solid knowledge of memory management with either <b>smart pointers</b> and <b>raw pointers</b>. This includes pointers algebra.
+skills_cplusplus_content_2: Solid knowledge of the STL. Mainly using cointainers such as <b>vector, queue, stack, list and enumerators</b>.
+skills_cplusplus_content_3: Solid knowledge of <b>Files Handling and exceptions</b>.
+
+skills_unreal_title: Unreal Specifics
+skills_unreal_content_1: Basic knowledge of the engine, materials and assets imports.
+skills_unreal_content_2: Basic knowledge of the development workflow using <b>Blueprints and C++</b> in parallel to get the advantages of both.
+
+skills_methodology_title: Work Methodologies
+skills_methodology_content_1: Solid Knowledge and experience in <b>Agile Principles and Scrum/Kanban Methodologies</b>.
+skills_methodology_content_2: Solid Knowledge and experience in different project management systems such as <b>Trello, ClickUp and Jira</b>.
+skills_methodology_content_3: Solid Knowledge and experience in different repository systems <b>(Git/GitLab)</b> and different Git Tools such as <b>GitKraken, SourceTree, GitHub Desktop and GitBash.</b>
+skills_methodology_content_4: Experience in documentation both internal in code or external by using documentation programs such as <b>Dotxigen</b>.
+
+#------------------------------------------------------------------------------------------------------------------
 
 # Google-analytics
 google-analytics:

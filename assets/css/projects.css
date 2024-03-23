@@ -1,0 +1,22 @@
+.projects_title
+{
+    display: flex;
+    justify-content: center;
+}
+.projects_container_general
+{
+    width: 100%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.projects_container_left
+{
+    justify-content: left;
+    padding: 10px;
+}
+.projects_container_right
+{
+    justify-content: right;
+    padding: 10px;
+}

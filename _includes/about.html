@@ -1,30 +1,43 @@
  <div class="user-details">
-  <h1> My Expertise </h1>
-  <p> {{site.user_description}} </p>
+  <h1> {{site.about_title}} </h1>
+  <p> {{site.about_description}} </p>
 </div>
-  <div class="user">
+<div class="user">
     <div class="tech">
-      <h2>Design</h2>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-bootstrap-plain-wordmark colored"></i>
-      <i class="devicon-sass-original colored"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+      <h2> {{site.about_code_title}} </h2>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" width="75" height="75"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" width="75" height="75"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" width="75" height="75"/>
+      <p> {{site.about_code_content_text}} </p>
     </div>
     <div class="tech">
-      <h2>Code</h2>
-      <i class="devicon-javascript-plain colored"></i>
-      <i class="devicon-react-original-wordmark colored"></i>
-      <i class="devicon-nodejs-plain-wordmark"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+      <h2> {{site.about_engines_title}} </h2>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg" width="75" height="75"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original-wordmark.svg" width="75" height="75"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-plain.svg" width="75" height="75"/>
+      <p> {{site.about_engines_content_text}} </p>
     </div>
     <div class="tech">
-      <h2>Tools</h2>
-      <i class="devicon-git-plain"></i>
-      <i class="devicon-gulp-plain colored"></i>
-      <i class="devicon-atom-original-wordmark"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
+      <h2> {{site.about_version_control_title}} </h2>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg" width="75" height="75"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg" width="75" height="75"/>
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" width="75" height="75"/>
+      <p> {{site.about_version_control_content_text}} </p>
     </div>
+</div>
+<div class="user">
+  <div class="tech">
+    <h2> {{site.about_backend_title}} </h2>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg" width="75" height="75"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="75" height="75"/>
+    <img src="{{ "/assets/img/gameanalytics_logo.png" | prepend: site.baseurl }}" width="75" height="75"/>
+    <p> {{site.about_backend_content_text}} </p>
+  </div>
+  <div class="tech">
+    <h2> {{site.about_organization_tools_title}} </h2>
+    <img src="{{ "/assets/img/clickup_logo.svg" | prepend: site.baseurl }}" width="75" height="75"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg" width="75" height="75"/>
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original-wordmark.svg" width="75" height="75"/>
+    <p> {{site.about_organization_tools_content_text}} </p>
+  </div>
 </div>
