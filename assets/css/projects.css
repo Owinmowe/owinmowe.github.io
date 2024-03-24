@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 .projects_container_general
 {
@@ -10,6 +11,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: flex-start;
+    flex-direction: row;
 }
 .projects_container_left
 {
@@ -26,23 +29,27 @@
 
 @media only screen and (max-width: 600px) 
 {
-    .projects_container_general 
+    .projects_title
     {
-        width: 100%;    
         display: flex;
         justify-content: center;
         align-items: center;
+        text-align: center;
+    }
+    .projects_container_general 
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: flex-start;
+        flex-direction: column;
     }
     .projects_container_left
     {
-        justify-content: center;
-        align-items: center;
         padding: 10px;
     }
     .projects_container_right
     {
-        justify-content: center;
-        align-items: center;
         padding: 10px;
     }
 }

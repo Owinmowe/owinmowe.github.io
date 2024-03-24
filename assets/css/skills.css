@@ -7,6 +7,7 @@
 {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 .skills_general_container 
 {
@@ -18,7 +19,9 @@
     display: flex;
     justify-content: space-around;
     width: 100%;
-    margin-bottom: 20px; /* Adjust as needed */
+    margin-bottom: 20px;
+    align-content: flex-start;
+    flex-direction: row;
 }
 .skill_container 
 {
@@ -26,4 +29,23 @@
     text-align: left;
     font-size: small;
     list-style-position: inside;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .skill_container 
+    {
+        width: 100%;
+        text-align: left;
+        font-size: small;
+        list-style-position: inside;
+    }
+    .skills_container_row 
+    {    
+        display: flex;
+        justify-content: space-around;
+        font-size: small;
+        align-content: flex-start;
+        flex-direction: column;
+    }
 }
