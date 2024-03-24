@@ -2,6 +2,7 @@
 {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .projects_container_general
 {
@@ -13,10 +14,35 @@
 .projects_container_left
 {
     justify-content: left;
+    align-items: center;
     padding: 10px;
 }
 .projects_container_right
 {
     justify-content: right;
+    align-items: center;
     padding: 10px;
+}
+
+@media only screen and (max-width: 600px) 
+{
+    .projects_container_general 
+    {
+        width: 100%;    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .projects_container_left
+    {
+        justify-content: left;
+        align-items: center;
+        padding: 10px;
+    }
+    .projects_container_right
+    {
+        justify-content: right;
+        align-items: center;
+        padding: 10px;
+    }
 }
