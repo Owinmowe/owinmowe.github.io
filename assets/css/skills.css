@@ -8,6 +8,7 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    font-style: italic;
 }
 .skills_general_container 
 {
@@ -28,6 +29,11 @@
     width: 30%;
     text-align: left;
     font-size: small;
+}
+ul 
+{
+    padding-left: 0;
+    padding-right: 2%;
     list-style-position: inside;
 }
 
@@ -38,10 +44,10 @@
         width: 100%;
         text-align: left;
         font-size: small;
-        list-style-position: inside;
     }
     .skills_container_row 
     {    
+        padding-left: 1%;
         display: flex;
         justify-content: space-around;
         font-size: small;
