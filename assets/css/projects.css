@@ -1,9 +1,10 @@
 .projects_container_general
 {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 1%;
+    padding-right: 1%;
 }
 .projects_title
 {
