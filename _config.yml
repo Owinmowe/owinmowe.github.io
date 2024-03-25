@@ -1,6 +1,6 @@
 # Site settings
 title: Adrian Sgro Webpage
-description: Game developer with several years of experience.
+description: Game developer with several years of experience programming.
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -42,7 +42,7 @@ projects_content_text_5: Eggscape
 #------------------------------------------------------------------------------------------------------------------
 
 # About settings
-about_title: Game Developer
+about_title: Argentinian Game Developer
 about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline. Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
 
 about_code_title: Code
