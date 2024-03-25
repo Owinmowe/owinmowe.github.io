@@ -15,32 +15,6 @@ itchio_username:  Owinmowe
 
 #------------------------------------------------------------------------------------------------------------------
 
-# Projects settings
-
-projects_title: Profesional Experience
-
-projects_content_title_1: Hipercasual Games
-projects_content_subtitle_1: Hipercasual Games
-projects_content_text_1: Hipercasual Games
-
-projects_content_title_2: Agite
-projects_content_subtitle_2: Agite
-projects_content_text_2: Agite
-
-projects_content_title_3: Blasted Gnomes
-projects_content_subtitle_3: Blasted Gnomes
-projects_content_text_3: Blasted Gnomes
-
-projects_content_title_4: Liberators Chronicles
-projects_content_subtitle_4: Liberators Chronicles
-projects_content_text_4: Liberators Chronicles
-
-projects_content_title_5: Eggscape
-projects_content_subtitle_5: Eggscape
-projects_content_text_5: Eggscape
-
-#------------------------------------------------------------------------------------------------------------------
-
 # About settings
 about_title: Argentinian Game Developer
 about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline. Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
@@ -59,6 +33,34 @@ about_backend_content_text: Mumblecore hexagon kombucha, pitchfork four loko rac
 
 about_organization_tools_title: Organization Tools
 about_organization_tools_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+
+#------------------------------------------------------------------------------------------------------------------
+
+# Projects settings
+
+projects_title: Profesional Experience
+
+projects_content_title_1: Hipercasual Games
+projects_content_subtitle_1: Full creation of mobile hypercasual games for the companies Mooney and CrazyLabs.
+projects_content_text_1: In this projects i was responsible of creating the full game system required for the games, the integration of all the corresponding assets and the integration of all the required backend to receive analytics about each game.
+
+projects_content_title_2: Agite
+projects_content_subtitle_2: WebGL Multiplayer Brawler with authoritative server made for the Samot company.
+projects_content_text_2: In this project i was responsible of creating the input system and UI navegations of the game, the options systems and the asyncronous loading of cosmetics through the web.
+
+
+projects_content_title_3: Blasted Gnomes
+projects_content_subtitle_3: WebGL Server authoritative Multiplayer Parabolic shooter game made for the international company Ripio.
+projects_content_text_3: Inside this project i was responsible of almost all the necesary system including basic game system, multiplayer architecture, all necessary API calls through the web and all security protocols needed in either the client or the server.
+
+projects_content_title_4: Liberators Chronicles
+projects_content_subtitle_4: PC Tactics turn based strategy game that received a nomination to “Best Narrative” in the EVA 2023 (”Exposicion Videojuegos Argentina”).
+projects_content_text_4: Inside this project, i was responsible of creating tools for easier integration and configuration of assets mainly in the game “Action Camera”.
+
+
+projects_content_title_5: Eggscape (Current Project)
+projects_content_subtitle_5: AR/VR 3D Beat'Em Up game that received an award in venice (Biennale Cinema 2022) in the Extended Reality category.
+projects_content_text_5: In this project, i am responsible of improving the current multiplayer pipeline and creating new features from scratch that require expert knowledge of multiplayer architecture.
 
 #------------------------------------------------------------------------------------------------------------------
 
