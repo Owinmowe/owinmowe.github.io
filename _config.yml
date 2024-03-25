@@ -41,20 +41,20 @@ about_organization_tools_content_text: As a veteran in the industry, i learnt se
 projects_title: Profesional Experience
 
 projects_content_title_1: Hipercasual Games
-projects_content_subtitle_1: Full creation of mobile hypercasual games for the companies Mooney and CrazyLabs.
+projects_content_subtitle_1: Full creation of mobile hypercasual games for the companies <a target=”_blank” href="https://www.moonee.io"> <b>Moonee</b> </a> and <a target=”_blank” href="https://www.crazylabs.com"> <b>Crazy Labs</b>.
 projects_content_text_1: In this projects i was responsible of creating the full game system required for the games, the integration of all the corresponding assets and the integration of all the required backend to receive analytics about each game.
 
 projects_content_title_2: Agite
-projects_content_subtitle_2: WebGL Multiplayer Brawler with authoritative server made for the Samot company.
+projects_content_subtitle_2: WebGL Multiplayer Brawler with authoritative server made for the <a target=”_blank” href="https://samot.club"> <b>Samot</b> </a> company.
 projects_content_text_2: In this project i was responsible of creating the input system and UI navegations of the game, the options systems and the asyncronous loading of cosmetics through the web.
 
 
 projects_content_title_3: Blasted Gnomes
-projects_content_subtitle_3: WebGL Server authoritative Multiplayer Parabolic shooter game made for the international company Ripio.
+projects_content_subtitle_3: WebGL Server authoritative Multiplayer Parabolic shooter game made for the international company <a target=”_blank” href="https://www.ripio.com"> <b>Ripio</b>.
 projects_content_text_3: Inside this project i was responsible of almost all the necesary system including basic game system, multiplayer architecture, all necessary API calls through the web and all security protocols needed in either the client or the server.
 
 projects_content_title_4: Liberators Chronicles
-projects_content_subtitle_4: PC Tactics turn based strategy game that received a nomination to “Best Narrative” in the EVA 2023 (”Exposicion Videojuegos Argentina”).
+projects_content_subtitle_4: PC Tactics based strategy game made that received a nomination to “Best Narrative” in the EVA 2023 (”Exposicion Videojuegos Argentina”).
 projects_content_text_4: Inside this project, i was responsible of creating tools for easier integration and configuration of assets mainly in the game “Action Camera”.
 
 
