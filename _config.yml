@@ -8,7 +8,7 @@ description: Game developer with several years of experience programming.
 
 # User settings
 username: Adrian Sgro
-user_title: Game Developer
+user_title: Game Programmer
 email: Owinmowe@gmail.com
 github_username:  Owinmowe
 itchio_username:  Owinmowe
@@ -16,23 +16,23 @@ itchio_username:  Owinmowe
 #------------------------------------------------------------------------------------------------------------------
 
 # About settings
-about_title: Argentinian Game Developer
+about_title: Argentinian Game Programmer
 about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline. Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
 
 about_code_title: Code
-about_code_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+about_code_content_text: As a game programmer, i'm well versed in all the most used code languages in the game development industry (either in conjuction with an engine or standalone).
 
 about_engines_title: Engines
-about_engines_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+about_engines_content_text: I'm a big believer that if the fundamentals are right, the engine is just a tool to get to an end. That's why i have experience in several industry standard engines and even engine development from the ground up with OpenGL.
 
 about_version_control_title: Version Control
-about_version_control_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+about_version_control_content_text: Version control is one of the most important tools in a programmers toolbox. That's why i regularly use Git in both personal and professional endeavors either with a GUI or directly with GitBash. 
 
 about_backend_title: Backend
-about_backend_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+about_backend_content_text: Nowadays, almost all games require some form of connection to the web. Either as a requirement of gameplay, as a multiplayer game, or as a need of a permanent database for saving different game data. This is why i learnt and used several different common backend services for different needs.
 
 about_organization_tools_title: Organization Tools
-about_organization_tools_content_text: Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse. Vinyl XOXO lumbersexual
+about_organization_tools_content_text: As a veteran in the industry, i learnt several organization tools over the years to permit an efficient comunication between different development disciplines being ClickUp and Trello my most used. 
 
 #------------------------------------------------------------------------------------------------------------------
 
@@ -73,10 +73,11 @@ skills_programming_content_1: Solid knowledge of <b>OOP</b>
 skills_programming_content_2: Solid Experience in <b>SOLID</b> and <b>KISS</b> principles.
 skills_programming_content_3: Solid Knowledge and experience in <b>programming patterns</b> applied to videogames such as <b>Builder, Factory, Flyweight, Object Pooling, Observer, Command, Service Locator, Strategy</b> and others.
 skills_programming_content_4: Knowledge and experience in different architectural patterns such as <b>MVC, MVP or ECS</b>.
-skills_programming_content_5: Knowledge of common game development algorithms such as <b>FSM, Boids, A* pathfinding, Voronoi</b> and many others.
-skills_programming_content_6: Knowledge of <b>Algebra y Physics</b> with a strong handling of <b>Vectors, Quaternions, Matrixs, Planes, Collisions</b> and other related mathematical concepts.
-skills_programming_content_7: Knowledge of <b>Parallel Programming</b>.
-skills_programming_content_8: Knowledge of the rendering pipeline including <b>Shader Programming</b> (Mainly <b>HLSL/GLSL</b>).
+skills_programming_content_5: Knowledge and experience in <b>Unit Testing and TDD</b>.
+skills_programming_content_6: Knowledge of common game development algorithms such as <b>FSM, Boids, A* pathfinding, Voronoi</b> and many others.
+skills_programming_content_7: Knowledge of <b>Algebra y Physics</b> with a strong handling of <b>Vectors, Quaternions, Matrixs, Planes, Collisions</b> and other related mathematical concepts.
+skills_programming_content_8: Knowledge of <b>Parallel Programming</b>.
+skills_programming_content_9: Knowledge of the rendering pipeline including <b>Shader Programming</b> (Mainly <b>HLSL/GLSL</b>).
 
 skills_csharp_title: C# Specifics
 skills_csharp_content_1: Solid knowledge of C# specific characterist such as <b>Attributes, STL, LINQ, Lambdas, Predicates, Async/Await, Yield Return</b> and others.
