@@ -14,32 +14,21 @@
 .projects_container
 {
     border:2px solid #000;
-    box-shadow:1px 1px 10px 2px;
     width: 90%;
     justify-content: center;
     text-align: center;
     padding: 2%;
-    margin-bottom: 2%;
+    margin: auto;
+    margin-bottom: 5%;
 }
 .projects_container img
 {
+    height: 55%;
     width: 55%;
-    justify-content: center;
-    text-align: center;  
-    border:2px solid #000;
-    border-radius: 2%;
-    box-shadow:1px 1px 10px 2px;
+    object-fit: contain;
 }
 .projects_buttons_container
 {
     justify-content: center;
     font-size: xx-large;
-}
-
-@media only screen and (max-width: 600px) 
-{
-    .projects_container img
-    {
-        width: 90%;
-    }
 }
