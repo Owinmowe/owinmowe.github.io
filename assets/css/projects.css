@@ -1,6 +1,5 @@
 .projects_container_general
 {
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding-left: 2%;
@@ -13,7 +12,6 @@
 }
 .projects_container
 {
-    border:2px solid #000;
     width: 90%;
     justify-content: center;
     text-align: center;
@@ -21,10 +19,15 @@
     margin: auto;
     margin-bottom: 5%;
 }
+.projects_container ul
+{
+    font-style: italic;
+    font-size: small;
+}
 .projects_container img
 {
-    height: 55%;
-    width: 55%;
+    height: 45%;
+    width: 45%;
     object-fit: contain;
 }
 .projects_buttons_container
