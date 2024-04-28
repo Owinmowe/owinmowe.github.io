@@ -60,7 +60,7 @@ projects_content_text_4: Inside this project, i was responsible of creating tool
 
 projects_content_title_5: Eggscape
 projects_content_subtitle_5: AR/VR 3D Beat'Em Up game that received an award in venice (Biennale Cinema 2022) in the Extended Reality category.
-projects_content_text_5: In this project, i am responsible of improving the current multiplayer pipeline and creating new features from scratch that require expert knowledge of multiplayer architecture.
+projects_content_text_5: In this project, i was responsible of improving the multiplayer pipeline and creating new features from scratch that required expert knowledge of multiplayer architecture. This required knowledge of a custom network engine with deterministic physics and ECS.
 
 #------------------------------------------------------------------------------------------------------------------
 
