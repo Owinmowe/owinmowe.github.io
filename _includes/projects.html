@@ -2,79 +2,19 @@
   <h1> {{site.projects_title}} </h1>
 </div>
 <div class="projects_container_general">
-  <hr>
-  <div class="projects_container">
-    <h3> {{site.projects_content_title_1}} </h3>
-    <div class="projects_container_img_1">
-      <img src="{{ "/assets/img/hypercasual_games.png" | prepend: site.baseurl }}" />
+  {% for project in site.projects %}
+    <div class="projects_container">
+      <h3> {{project.title}} </h3>
+      <div class="projects_container_img"> <img src="{{ "{{project.image}}" | prepend: site.baseurl }}" /> </div>
+      <ul>
+        <li> {{project.subtitle}} </li>
+      </ul>
+      <div class="projects_buttons_container">
+        {% for button in project.buttons %}
+          <a class="project-link" target=”_blank” href="{{"{{button.link}}"}}"> <i class="{{"{{button.icon}}"}}"></i> </a>
+        {% endfor %}
+      </div>
+      <p> {{project.main_text}} </p>
     </div>
-    <ul>
-      <li> {{site.projects_content_subtitle_1}} </li>
-    </ul>
-    <div class="projects_buttons_container">
-      <a class="project-link" target=”_blank” href="https://drive.google.com/file/d/1tAT7NLb1OxnyhAjdXPeCxldXrtZJvbVc/view?usp=drive_link"> <i class="fa-regular fa-circle-play"></i> </a>
-      <a class="project-link" target=”_blank” href="https://drive.google.com/file/d/1ruwRojzL6YXY5c_ITS21lifdcz5Z3qYw/view?usp=drive_link"> <i class="fa-regular fa-circle-play"></i> </a>
-      <a class="project-link" target=”_blank” href="https://drive.google.com/file/d/10VIMc24vZ8hShZQ9SaP1wMFPFRjPWskh/view?usp=drive_link"> <i class="fa-regular fa-circle-play"></i> </a>
-    </div>
-    <p> {{site.projects_content_text_1}} </p>
-  </div>
-  <hr>
-  <div class="projects_container">
-    <h3> {{site.projects_content_title_2}} </h3>
-    <div class="projects_container_img_2">
-      <img src="{{ "/assets/img/agite_image.png" | prepend: site.baseurl }}" />
-    </div>
-    <ul>
-      <li> {{site.projects_content_subtitle_2}} </li>
-    </ul>
-    <div class="projects_buttons_container">
-      <a class="project-link" target=”_blank” href="https://drive.google.com/file/d/1KbXImgTjO9l5wMUU7xNkz4Ic7wybyEAz/view?usp=drive_link"> <i class="fa-regular fa-circle-play"></i> </a>
-    </div>
-    <p> {{site.projects_content_text_2}} </p>
-  </div>
-  <hr>
-  <div class="projects_container">
-    <h3> {{site.projects_content_title_3}} </h3>
-    <div class="projects_container_img_3">
-      <img src="{{ "/assets/img/blasted_gnomes_image.png" | prepend: site.baseurl }}" />
-    </div>
-    <ul>
-      <li> {{site.projects_content_subtitle_3}} </li>
-    </ul>
-    <div class="projects_buttons_container">
-      <a class="project-link" target=”_blank” href="https://drive.google.com/file/d/1LwP4T2QZ1IoqzyTAwAGbFHNgyjFj-IY1/view?usp=drive_link"> <i class="fa-regular fa-circle-play"></i> </a>
-    </div>
-    <p> {{site.projects_content_text_3}} </p>
-  </div>
-  <hr>
-  <div class="projects_container">
-    <h3> {{site.projects_content_title_4}} </h3>
-    <div class="projects_container_img_4">
-      <img src="{{ "/assets/img/liberators_chronicles_image.jpg" | prepend: site.baseurl }}" />
-    </div>
-    <ul>
-      <li> {{site.projects_content_subtitle_4}} </li>
-    </ul>
-    <div class="projects_buttons_container">
-      <a class="project-link" target=”_blank” href="https://store.steampowered.com/app/2603120/Liberators_Chronicles/"> <i class="fa-brands fa-steam"></i> </a>
-      <a class="project-link" target=”_blank” href="https://discord.gg/CmDTs5KPEc"> <i class="fa-brands fa-discord"></i> </a>
-      <a class="project-link" target=”_blank” href="https://drive.google.com/file/d/1YKm1Wt-KftaexDdkEpceNHFJI_BFW8s-/view?usp=drive_link"> <i class="fa-regular fa-circle-play"></i> </a>
-    </div>
-    <p> {{site.projects_content_text_4}} </p>
-  </div>
-  <hr>
-  <div class="projects_container">
-    <h3> {{site.projects_content_title_5}} </h3>
-    <div class="projects_container_img_5">
-      <img src="{{ "/assets/img/eggscape_image.png" | prepend: site.baseurl }}" />
-    </div>
-    <ul>
-      <li> {{site.projects_content_subtitle_5}} </li>
-    </ul>
-    <div class="projects_buttons_container">
-      <a class="project-link" target=”_blank” href="https://www.3dar.com"> <i class="fa-solid fa-globe"></i> </a>
-    </div>
-    <p> {{site.projects_content_text_5}} </p>
-  </div>
-  <hr>
+  {% endfor %}
 </div>

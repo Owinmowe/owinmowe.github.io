@@ -1,0 +1,16 @@
+<div class="about_header">
+  <h1> {{site.about_title}} </h1>
+  <p> {{site.about_description}} </p>
+  <p> {{site.about_resume}} <a class="link" href="assets\files\adrian-sgro-cv.pdf" download>Adrian's CV</a> </p>
+</div>
+<div class="about_containers">
+  {% for value in site.about_values %}
+  <div class="about_value">
+    <h2> {{ value.title }} </h2>
+    {% for i in value.icons %}
+    <img src="{{ "{{i.icon}}" }}" width="75" height="75" />
+    {% endfor %}
+    <p> {{ value.text }} </p>
+  </div>
+  {% endfor %}
+</div>

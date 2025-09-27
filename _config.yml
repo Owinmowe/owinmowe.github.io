@@ -20,20 +20,41 @@ about_title: Argentinian Game Programmer
 about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline. Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
 about_resume: "You can view my CV here: "
 
-about_code_title: Code
-about_code_content_text: As a game programmer, i'm well versed in all the most used code languages in the game development industry (either in conjuction with an engine or standalone).
+about_values:
+  - title: Code
+    text: As a game programmer, i'm well versed in all the most used code languages in the game development industry (either in conjuction with an engine or standalone).
+    icons:
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-plain.svg
 
-about_engines_title: Engines
-about_engines_content_text: I'm a big believer that if the fundamentals are right, the engine is just a tool to get to an end. That's why i have experience in several industry standard engines and even engine development from the ground up with OpenGL.
+  - title: Engines
+    text: I'm a big believer that if the fundamentals are right, the engine is just a tool to get to an end. That's why i have experience in several industry standard engines and even engine development from the ground up with OpenGL.
+    icons:
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unity/unity-original-wordmark.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/unrealengine/unrealengine-original-wordmark.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opengl/opengl-plain.svg
 
-about_version_control_title: Version Control
-about_version_control_content_text: Version control is one of the most important tools in a programmers toolbox. That's why i regularly use Git in both personal and professional endeavors either with a GUI or directly with GitBash. 
+  - title: Version Control
+    text: Version control is one of the most important tools in a programmers toolbox. That's why i regularly use Git in both personal and professional endeavors either with a GUI or directly with GitBash.
+    icons:
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original-wordmark.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg
 
-about_backend_title: Backend
-about_backend_content_text: Nowadays, almost all games require some form of connection to the web. Either as a requirement of gameplay, as a multiplayer game, or as a need of a permanent database for saving different game data. This is why i learnt and used several different common backend services for different needs.
+  - title: Backend
+    text: Nowadays, almost all games require some form of connection to the web. Either as a requirement of gameplay, as a multiplayer game, or as a need of a permanent database for saving different game data. This is why i learnt and used several different common backend services for different needs.
+    icons:
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azure/azure-original-wordmark.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg
+      - icon: /assets/img/gameanalytics_logo.png
 
-about_organization_tools_title: Organization Tools
-about_organization_tools_content_text: As a person with experience working in groups of different sizes, i learnt several organization tools over the years to permit an efficient comunication between different development disciplines being ClickUp and Trello my most used. 
+  - title: Organization Tools
+    text: As a person with experience working in groups of different sizes, i learnt several organization tools over the years to permit an efficient comunication between different development disciplines being ClickUp and Trello my most used. 
+    icons:
+      - icon: /assets/img/clickup_logo.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original-wordmark.svg
+      - icon: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/trello/trello-original-wordmark.svg
 
 #------------------------------------------------------------------------------------------------------------------
 
@@ -41,78 +62,124 @@ about_organization_tools_content_text: As a person with experience working in gr
 
 projects_title: Profesional Experience
 
-projects_content_title_1: Hipercasual Games
-projects_content_subtitle_1: Full creation of <b>mobile hypercasual games</b> for the companies <a target=”_blank” href="https://www.moonee.io"> <b>Moonee</b> </a> and <a target=”_blank” href="https://www.crazylabs.com"> <b>Crazy Labs</b>.
-projects_content_text_1: In this projects i was responsible of creating the full game system required for the games, the integration of all the corresponding assets and the integration of all the required backend to receive analytics about each game.
+projects:
+  - title: Undermire <small>(Current Project)</small>
+    image: /assets/img/undermire_image.jpg
+    subtitle: <b>1-4 player first person co-op roguelite adventure game with a specific 2D/3D artstyle</b> that was shown on several well known indie trailer showcases such as <a target=”_blank” href="https://www.youtube.com/watch?v=ur00AIPGYqU">Six One Indie Showcase</a> and <a target=”_blank” href="https://www.youtube.com/watch?v=Ia9g1gCTA7w">OTK Games Expo</a>.
+    main_text:  In this project, i'm in charge of developing all the network infrastructure required for the game including gameplay synchronization, backend service connections and network specific logic using an own custom made network solution tailor made for the project requirements without stopping the game development. 
 
-projects_content_title_2: Agite
-projects_content_subtitle_2: <b>WebGL Server authoritative Multiplayer Brawler game</b> made for the <a target=”_blank” href="https://samot.club"> <b>Samot</b> </a> company.
-projects_content_text_2: In this project i was responsible of creating the input system and UI navegations of the game, the options systems and the asyncronous loading of cosmetics through the web.
+    buttons:
+      - link: https://store.steampowered.com/app/3366370/UnderMire
+        icon: fa-brands fa-steam 
+      - link: https://tableknightgames.com/undermire
+        icon: fa-solid fa-globe 
 
+  - title: Eggscape
+    image: /assets/img/eggscape_image.png
+    subtitle: <b>AR/VR 3D Beat'Em Up game</b> that received an award in venice (Biennale Cinema 2022) in the Extended Reality category.
+    main_text: In this project, i was responsible of improving the multiplayer pipeline and creating new features from scratch that required expert knowledge of multiplayer architecture. This required knowledge of a custom network engine with deterministic physics and ECS.
+    buttons:
+      - link: https://www.3dar.com
+        icon: fa-solid fa-globe 
 
-projects_content_title_3: Blasted Gnomes
-projects_content_subtitle_3: <b>WebGL Server authoritative Multiplayer Parabolic shooter game</b> made for the international company <a target=”_blank” href="https://www.ripio.com"> <b>Ripio</b>.
-projects_content_text_3: Inside this project i was responsible of almost all the necesary system including basic game system, multiplayer architecture, all necessary API calls through the web and all security protocols needed in either the client or the server.
+  - title: Liberators Chronicles
+    image: /assets/img/liberators_chronicles_image.jpg
+    subtitle: <b>PC Tactics based strategy game</b> made that received a nomination to “Best Narrative” in the EVA 2023 (”Exposicion Videojuegos Argentina”).
+    main_text: Inside this project, i was responsible of creating tools for easier integration and configuration of assets mainly in the game “Action Camera”.
+    buttons:
+      - link: https://store.steampowered.com/app/2603120/Liberators_Chronicles
+        icon: fa-brands fa-steam 
+      - link: https://discord.gg/CmDTs5KPEc
+        icon: fa-brands fa-discord
+      - link: https://drive.google.com/file/d/1YKm1Wt-KftaexDdkEpceNHFJI_BFW8s-/view?usp=drive_link
+        icon: fa-regular fa-circle-play
 
-projects_content_title_4: Liberators Chronicles
-projects_content_subtitle_4: <b>PC Tactics based strategy game</b> made that received a nomination to “Best Narrative” in the EVA 2023 (”Exposicion Videojuegos Argentina”).
-projects_content_text_4: Inside this project, i was responsible of creating tools for easier integration and configuration of assets mainly in the game “Action Camera”.
+  - title: Blasted Gnomes
+    image: /assets/img/blasted_gnomes_image.png
+    subtitle: <b>WebGL Server authoritative Multiplayer Parabolic shooter game</b> made for the international company <a target=”_blank” href="https://www.ripio.com"> <b>Ripio</b>.
+    main_text: Inside this project i was responsible of almost all the necesary system including basic game system, multiplayer architecture, all necessary API calls through the web and all security protocols needed in either the client or the server.
+    buttons:
+      - link: https://drive.google.com/file/d/1LwP4T2QZ1IoqzyTAwAGbFHNgyjFj-IY1/view?usp=drive_link
+        icon: fa-regular fa-circle-play
 
+  - title: Agite
+    image: /assets/img/agite_image.png
+    subtitle: <b>WebGL Server authoritative Multiplayer Brawler game</b> made for the <a target=”_blank” href="https://samot.club"> <b>Samot</b> </a> company.
+    main_text: In this project i was responsible of creating the input system and UI navegations of the game, the options systems and the asyncronous loading of cosmetics through the web.
+    buttons:
+      - link: https://drive.google.com/file/d/1KbXImgTjO9l5wMUU7xNkz4Ic7wybyEAz/view?usp=drive_link
+        icon: fa-regular fa-circle-play 
 
-projects_content_title_5: Eggscape
-projects_content_subtitle_5: <b>AR/VR 3D Beat'Em Up game</b> that received an award in venice (Biennale Cinema 2022) in the Extended Reality category.
-projects_content_text_5: In this project, i was responsible of improving the multiplayer pipeline and creating new features from scratch that required expert knowledge of multiplayer architecture. This required knowledge of a custom network engine with deterministic physics and ECS.
+  - title: Hipercasual Games
+    image: /assets/img/hypercasual_games_image.png
+    subtitle: Full creation of <b>mobile hypercasual games</b> for the companies <a target=”_blank” href="https://www.moonee.io"> <b>Moonee</b> </a> and <a target=”_blank” href="https://www.crazylabs.com"> <b>Crazy Labs</b>.
+    main_text: In this projects i was responsible of creating the full game system required for the games, the integration of all the corresponding assets and the integration of all the required backend to receive analytics about each game.
+    buttons:
+      - link: https://drive.google.com/file/d/1tAT7NLb1OxnyhAjdXPeCxldXrtZJvbVc/view?usp=drive_link
+        icon: fa-regular fa-circle-play
+      - link: https://drive.google.com/file/d/10VIMc24vZ8hShZQ9SaP1wMFPFRjPWskh/view?usp=drive_link
+        icon: fa-regular fa-circle-play
+      - link: https://drive.google.com/file/d/1ruwRojzL6YXY5c_ITS21lifdcz5Z3qYw/view?usp=drive_link
+        icon: fa-regular fa-circle-play
+
 
 #------------------------------------------------------------------------------------------------------------------
 
 # Skills settings
 skills_title: Developer Skills
 skills_description: This are skills i got over the years developing games in learning and professional enviroments.
+skills:
+  - title: Programming Concepts
+    contents:
+    - content: Solid knowledge of <b>OOP</b>
+    - content: Solid Experience in <b>SOLID</b> and <b>KISS</b> principles.
+    - content: Solid Knowledge and experience in <b>programming patterns</b> applied to videogames such as <b>Builder, Factory, Flyweight, Object Pooling, Observer, Command, Service Locator, Strategy</b> and others.
+    - content: Knowledge and experience in different architectural patterns such as <b>MVC, MVP or ECS</b>.
+    - content: Knowledge and experience in <b>Unit Testing and TDD</b>.
+    - content: Knowledge of common game development algorithms such as <b>FSM, Boids, A* pathfinding, Voronoi</b> and many others.
+    - content: Knowledge of <b>Algebra y Physics</b> with a strong handling of <b>Vectors, Quaternions, Matrixs, Planes, Collisions</b> and other related mathematical concepts.
+    - content: Knowledge of <b>Parallel Programming</b>.
+    - content: Knowledge of the rendering pipeline including <b>Shader Programming</b> (Mainly <b>HLSL/GLSL</b>).
 
-skills_programming_title: Programming Concepts
-skills_programming_content_1: Solid knowledge of <b>OOP</b>
-skills_programming_content_2: Solid Experience in <b>SOLID</b> and <b>KISS</b> principles.
-skills_programming_content_3: Solid Knowledge and experience in <b>programming patterns</b> applied to videogames such as <b>Builder, Factory, Flyweight, Object Pooling, Observer, Command, Service Locator, Strategy</b> and others.
-skills_programming_content_4: Knowledge and experience in different architectural patterns such as <b>MVC, MVP or ECS</b>.
-skills_programming_content_5: Knowledge and experience in <b>Unit Testing and TDD</b>.
-skills_programming_content_6: Knowledge of common game development algorithms such as <b>FSM, Boids, A* pathfinding, Voronoi</b> and many others.
-skills_programming_content_7: Knowledge of <b>Algebra y Physics</b> with a strong handling of <b>Vectors, Quaternions, Matrixs, Planes, Collisions</b> and other related mathematical concepts.
-skills_programming_content_8: Knowledge of <b>Parallel Programming</b>.
-skills_programming_content_9: Knowledge of the rendering pipeline including <b>Shader Programming</b> (Mainly <b>HLSL/GLSL</b>).
+  - title: C# Specifics
+    contents:
+    - content: Solid knowledge of C# specific characterist such as <b>Attributes, STL, LINQ, Lambdas, Predicates, Async/Await, Yield Return</b> and others.
+    - content: Knowledge of handling and optimization of memory usage, such as <b>GC</b> functionalities, Struct/Class difference and others.
+    - content: Knowledge and experience in <b>Assemblies Handling</b>.
+    - content: Knowledge and experience in <b>Reflection</b>.
+    - content: Basic Knowledge of <b>WFP</b>. 
 
-skills_csharp_title: C# Specifics
-skills_csharp_content_1: Solid knowledge of C# specific characterist such as <b>Attributes, STL, LINQ, Lambdas, Predicates, Async/Await, Yield Return</b> and others.
-skills_csharp_content_2: Knowledge of handling and optimization of memory usage, such as <b>GC</b> functionalities, Struct/Class difference and others.
-skills_csharp_content_3: Knowledge and experience in <b>Assemblies Handling</b>.
-skills_csharp_content_4: Knowledge and experience in <b>Reflection</b>.
-skills_csharp_content_5: Basic Knowledge of <b>WFP</b>. 
+  - title: Unity Specifics
+    contents:
+    - content: Solid Knowledge and experience in all basic systems of the engine.
+    - content: Solid Knowledge and experience in all target platforms being <b>Android</b> and <b>WebGL</b> my main expertice.
+    - content: Solid Knowledge and experience of <b>assets import and integration pipelines</b>.
+    - content: Solid Knowledge and experience of <b>UI Handling</b>, including functionality to resizing to anchors.
+    - content: Knowledge and experience with editor scripts such as <b>CustomEditors</b>, <b>EditorWindows</b> and <b>PropertyDrawers</b> in both <b>IMGUI</b> and <b>VisualElement</b> pipelines.
+    - content: Knowledge and experience in different Unity Packages such as <b>Addressables</b>, <b>New Input System</b>, <b>Localization</b>, and several others.
+    - content: Knowledge and experience in interfaces programming for <b>RESTful API</b> through <b>WebRequests</b>.
+    - content: Knowledge and experience in <b>multiplayer games</b> with <b>Mirror/Fusion</b> with different multiplayer architectures.
+    - content: Knowledge and experience about all different render pipelines (<b>Built-in, URP, HDRP</b>) including material/shaders handling through <b>HLSL</b> or <b>Shadergraph</b>.
+    - content: Knowledge and experience in <b>Unit-Testing</b> for general logic and engine specific logic.
 
-skills_unity_title: Unity Specifics
-skills_unity_content_1: Solid Knowledge and experience in all basic systems of the engine.
-skills_unity_content_2: Solid Knowledge and experience in all target platforms being <b>Android</b> and <b>WebGL</b> my main expertice.
-skills_unity_content_3: Solid Knowledge and experience of <b>assets import and integration pipelines</b>.
-skills_unity_content_4: Solid Knowledge and experience of <b>UI Handling</b>, including functionality to resizing to anchors.
-skills_unity_content_5: Knowledge and experience with editor scripts such as <b>CustomEditors</b>, <b>EditorWindows</b> and <b>PropertyDrawers</b> in both <b>IMGUI</b> and <b>VisualElement</b> pipelines.
-skills_unity_content_6: Knowledge and experience in different Unity Packages such as <b>Addressables</b>, <b>New Input System</b>, <b>Localization</b>, and several others.
-skills_unity_content_7: Knowledge and experience in interfaces programming for <b>RESTful API</b> through <b>WebRequests</b>.
-skills_unity_content_8: Knowledge and experience in <b>multiplayer games</b> with <b>Mirror/Fusion</b> with different multiplayer architectures.
-skills_unity_content_9: Knowledge and experience about all different render pipelines (<b>Built-in, URP, HDRP</b>) including material/shaders handling through <b>HLSL</b> or <b>Shadergraph</b>.
-skills_unity_content_10: Knowledge and experience in <b>Unit-Testing</b> for general logic and engine specific logic.
 
-skills_cplusplus_title: C++ Specifics
-skills_cplusplus_content_1: Solid knowledge of memory management with either <b>smart pointers</b> and <b>raw pointers</b>. This includes pointers algebra.
-skills_cplusplus_content_2: Solid knowledge of the STL. Mainly using cointainers such as <b>vector, queue, stack, list and enumerators</b>.
-skills_cplusplus_content_3: Solid knowledge of <b>Files Handling and exceptions</b>.
+  - title: C++ Specifics
+    contents:
+    - content: Solid knowledge of memory management with either <b>smart pointers</b> and <b>raw pointers</b>. This includes pointers algebra.
+    - content: Solid knowledge of the STL. Mainly using cointainers such as <b>vector, queue, stack, list and enumerators</b>.
+    - content: Solid knowledge of <b>Files Handling and exceptions</b>.
 
-skills_unreal_title: Unreal Specifics
-skills_unreal_content_1: Basic knowledge of the engine, materials and assets imports.
-skills_unreal_content_2: Basic knowledge of the development workflow using <b>Blueprints and C++</b> in parallel to get the advantages of both.
+  - title: Unreal Specifics
+    contents:
+    - content: Basic knowledge of the engine, materials and assets imports.
+    - content: Basic knowledge of the development workflow using <b>Blueprints and C++</b> in parallel to get the advantages of both.
 
-skills_methodology_title: Work Methodologies
-skills_methodology_content_1: Solid Knowledge and experience in <b>Agile Principles and Scrum/Kanban Methodologies</b>.
-skills_methodology_content_2: Solid Knowledge and experience in different project management systems such as <b>Trello, ClickUp and Jira</b>.
-skills_methodology_content_3: Solid Knowledge and experience in different repository systems <b>(Git/GitLab)</b> and different Git Tools such as <b>GitKraken, SourceTree, GitHub Desktop and GitBash.</b>
-skills_methodology_content_4: Experience in documentation both internal in code or external by using documentation programs such as <b>Dotxigen</b>.
+  - title: Work Methodologies
+    contents:
+    - content: Solid Knowledge and experience in <b>Agile Principles and Scrum/Kanban Methodologies</b>.
+    - content: Solid Knowledge and experience in different project management systems such as <b>Trello, ClickUp and Jira</b>.
+    - content: Solid Knowledge and experience in different repository systems <b>(Git/GitLab)</b> and different Git Tools such as <b>GitKraken, SourceTree, GitHub Desktop and GitBash.</b>
+    - content: Experience in documentation both internal in code or external by using documentation programs such as <b>Dotxigen</b>.
 
 #------------------------------------------------------------------------------------------------------------------
 
