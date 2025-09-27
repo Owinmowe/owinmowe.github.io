@@ -17,8 +17,11 @@ itchio_username:  Owinmowe
 
 # About settings
 about_title: Argentinian Game Programmer
-about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline. Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
-about_resume: "You can view my CV here: "
+about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline.<br> Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
+about_cv_text: "You can Download my CV here: "
+about_cv_button:
+  text: Download Link
+  link: assets\files\adrian-sgro-cv.pdf
 
 about_values:
   - title: Code

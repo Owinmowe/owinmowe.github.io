@@ -1,7 +1,7 @@
 <div class="about_header">
   <h1> {{site.about_title}} </h1>
   <p> {{site.about_description}} </p>
-  <p> {{site.about_resume}} <a class="link" href="assets\files\adrian-sgro-cv.pdf" download>Adrian's CV</a> </p>
+  <p> {{site.about_cv_text}} <a class="link" href="{{"{{site.about_cv_button.link}}"}}" download>{{site.about_cv_button.text}}</a> </p>
 </div>
 <div class="about_containers">
   {% for value in site.about_values %}
