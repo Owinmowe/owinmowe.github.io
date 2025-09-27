@@ -1,8 +1,7 @@
 .about_header
 {
-    display: grid;
+    display: block;
     text-align: center;
-    padding-left: 0;
 }
 .about_containers
 {
