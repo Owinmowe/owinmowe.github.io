@@ -36,7 +36,10 @@
 {
     text-align: center;
     box-shadow: 0 0 3px 1px #1A222C;
-    padding: 0px 5x;
+}
+.about_value p
+{
+    padding: 0px 10px;
 }
 
 @media only screen and (max-width: 1700px) 
