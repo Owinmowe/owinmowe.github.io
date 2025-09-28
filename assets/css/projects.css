@@ -30,11 +30,6 @@
     margin-bottom: 10px;
     box-shadow: 0 0 3px 1px #1A222C;
 }
-.projects_container ul
-{
-    font-style: italic;
-    font-size: small;
-}
 .projects_container img
 {
     height: 45%;
