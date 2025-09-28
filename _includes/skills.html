@@ -9,7 +9,7 @@
   <div class="skills_container">
     {% for skill in site.skills %}
     <div class="skill_container">
-      <h2 style="text-align: center; padding-top: 0%;"> {{ skill.title }} </h2>
+      <h2> {{ skill.title }} </h2>
       <ul style="display: table;">
         {% for cont in skill.contents %}
         <li> {{ cont.content }} </li> 

@@ -6,7 +6,13 @@
     margin-right: auto;
     box-shadow: 0 0 5px 10px white;
 }
-.about_general > div {
+.about_general h2
+{
+    margin-top: 0px;
+    padding-top: .25em;
+}
+.about_general > div 
+{
     margin: 0px 10px;
 }
 .about_header

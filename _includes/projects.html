@@ -5,7 +5,7 @@
   <div class="projects_container_general">
     {% for project in site.projects %}
     <div class="projects_container">
-      <h3> {{project.title}} </h3>
+      <h2> {{project.title}} </h2>
       <div class="projects_container_img"> <img src="{{ "{{project.image}}" | prepend: site.baseurl }}" /> </div>
       <h5> {{project.subtitle}} </h5>
       <div class="projects_buttons_container">

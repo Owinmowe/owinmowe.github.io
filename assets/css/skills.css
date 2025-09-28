@@ -6,6 +6,17 @@
     margin-right: auto;
     margin-top: 1em;
     box-shadow: 0 0 5px 10px white;
+    padding-bottom: 1em;
+}
+.skills_general h1
+{
+    margin-top: 0px;
+    padding-top: .5em;
+}
+.skills_general h2
+{
+    margin-top: 0px;
+    padding-top: .25em;
 }
 .skills_general > div {
     margin: 0px 10px;
@@ -14,11 +25,6 @@
 {
     display: flex;
     justify-content: center;
-}
-.skills_title h1
-{
-    margin-top: 0px;
-    padding-top: .5em;
 }
 .skills_subtitle 
 {
@@ -32,6 +38,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
     gap: 10px;
 }
 .skills_container > * 
