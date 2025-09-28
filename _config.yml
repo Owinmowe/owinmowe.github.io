@@ -16,7 +16,7 @@ itchio_username:  Owinmowe
 #------------------------------------------------------------------------------------------------------------------
 
 # About settings
-about_title: Argentinian Game Programmer
+about_title: <u>About me</u>
 about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline.<br> Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
 about_cv_text: "You can download my CV here: "
 about_cv_button:
@@ -63,7 +63,7 @@ about_values:
 
 # Projects settings
 
-projects_title: Profesional Experience
+projects_title: <u>Profesional Experience</u>
 
 projects:
   - title: Undermire <small>(Current Project)</small>
@@ -129,7 +129,7 @@ projects:
 #------------------------------------------------------------------------------------------------------------------
 
 # Skills settings
-skills_title: Developer Skills
+skills_title: <u>Developer Skills</u>
 skills_description: This are skills i got over the years developing games in learning and professional enviroments.
 skills:
   - title: Programming Concepts

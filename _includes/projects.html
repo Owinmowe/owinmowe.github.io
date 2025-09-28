@@ -1,20 +1,20 @@
-<div class="projects_title">
-  <h1> {{site.projects_title}} </h1>
-</div>
-<div class="projects_container_general">
-  {% for project in site.projects %}
+<div class ="projects_general">  
+  <div class="projects_title">
+    <h1> {{site.projects_title}} </h1>
+  </div>
+  <div class="projects_container_general">
+    {% for project in site.projects %}
     <div class="projects_container">
       <h3> {{project.title}} </h3>
       <div class="projects_container_img"> <img src="{{ "{{project.image}}" | prepend: site.baseurl }}" /> </div>
-      <ul>
-        <li> {{project.subtitle}} </li>
-      </ul>
+      <li> {{project.subtitle}} </li>
       <div class="projects_buttons_container">
         {% for button in project.buttons %}
-          <a class="project-link" target=”_blank” href="{{"{{button.link}}"}}"> <i class="{{"{{button.icon}}"}}"></i> </a>
+        <a class="project-link" target=”_blank” href="{{"{{button.link}}"}}"> <i class="{{"{{button.icon}}"}}"></i> </a>
         {% endfor %}
       </div>
       <p> {{project.main_text}} </p>
     </div>
-  {% endfor %}
+    {% endfor %}
+  </div>
 </div>

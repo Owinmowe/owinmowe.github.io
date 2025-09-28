@@ -1,3 +1,14 @@
+.about_general
+{
+    background-color: white;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 10px white;
+}
+.about_general > div {
+    margin: 0px 10px;
+}
 .about_header
 {
     display: block;
@@ -5,35 +16,43 @@
 }
 .about_containers
 {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 60%;
-    padding-left: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 1em;
+}
+.about_containers > * 
+{
+    flex: 0 0 calc(33.333% - 14px);
 }
 .about_value
 {
     text-align: center;
-    padding-right: 2%;
+    box-shadow: 0 0 3px 1px #1A222C;
+    padding: 0px 5x;
 }
 
 @media only screen and (max-width: 1700px) 
 {
-    .about_containers
+    .about_general
     {
-        display: grid;
-        grid-template-columns: auto auto;
-        width: 60%;
-        padding-left: 20%;
-    } 
+        width: 80%;
+    }
+    .about_containers > * 
+    {
+        flex: 0 0 calc(50% - 14px);
+    }
 }
 
-@media only screen and (max-width: 1400px) 
+@media only screen and (max-width: 800px) 
 {   
-    .about_containers
+    .about_general
     {
-        display: grid;
-        grid-template-columns: auto;
-        width: 60%;
-        padding-left: 20%;
-    }   
+        width: 100%;
+    }
+    .about_containers > * 
+    {
+        flex: 0 0 calc(100% - 14px);
+    }
 }
