@@ -8,7 +8,8 @@
   <img src="./src/img/avatars/Digi Learnnials Avatar.png" width="30%">
 </p>
 
-This is a simple web created as an informal CV for me, heavily modifying a minimalist template created by [Mauricio Urraco](https://github.com/murraco) 
+This is a simple web created as an informal CV for me, heavily modifying a minimalist template created by [Mauricio Urraco](https://github.com/murraco). 
+You can see the page online [Here](https://adriansgro.com).
 
 ## Credits
 
