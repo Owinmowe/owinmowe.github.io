@@ -15,6 +15,33 @@ itchio_username:  Owinmowe
 
 #------------------------------------------------------------------------------------------------------------------
 
+# Header settings
+header:
+  icons:
+  - text: My Email
+    icon: icon fa fa-envelope
+    link: mailto:Owinmowe@gmail.com
+  - text: My GitHub
+    icon: icon fa-brands fa-github-square
+    link: https://github.com/Owinmowe
+  - text: My Itch.Io
+    icon: icon fa-brands fa-itch-io
+    link: https://owinmowe.itch.io
+  - text: My LinkedIn
+    icon: icon fa-brands fa-linkedin
+    link: https://www.linkedin.com/in/adrian-sgro/
+
+  links:
+  - text: About Me
+    link: '#about_me'
+  - text: Experience
+    link: '#projects_me'
+  - text: Skills
+    link: '#skills_me'
+
+
+#------------------------------------------------------------------------------------------------------------------
+
 # About settings
 about_title: <u>About me</u>
 about_description: I am a Self-Taught programmer that started programming games in it's free time, and then fell in love with the discipline.<br> Some time later, with formal studies, i transformed it from a passion to a profession and my current job.
