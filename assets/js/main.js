@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "grab": {
         "distance": 140,
         "line_linked": {
-          "opacity": 1
+          "opacity": 0
         }
       },
       "bubble": {
@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
         "duration": 0.4
       },
       "push": {
-        "particles_nb": 4
+        "particles_nb": 100
       },
       "remove": {
         "particles_nb": 2
