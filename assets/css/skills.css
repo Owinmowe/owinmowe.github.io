@@ -1,7 +1,7 @@
 .skills_general
 {
     background-color: white;
-    width: 60%;
+    width: clamp(70%, 60vw, 50%);
     margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
@@ -60,10 +60,6 @@
 
 @media only screen and (max-width: 1700px) 
 {
-    .skills_general
-    {
-        width: 80%;
-    }
     .skills_container > * 
     {
         flex: 0 0 calc(50% - 14px);
@@ -72,10 +68,6 @@
 
 @media only screen and (max-width: 800px) 
 {   
-    .skills_general
-    {
-        width: 100%;
-    }
     .skills_container > * 
     {
         flex: 0 0 calc(100% - 14px);

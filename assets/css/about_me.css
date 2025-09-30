@@ -1,7 +1,7 @@
 .about_general
 {
     background-color: white;
-    width: 60%;
+    width: clamp(70%, 60vw, 50%);
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 5px 10px white;
@@ -44,10 +44,6 @@
 
 @media only screen and (max-width: 1700px) 
 {
-    .about_general
-    {
-        width: 80%;
-    }
     .about_containers > * 
     {
         flex: 0 0 calc(50% - 14px);
@@ -56,10 +52,6 @@
 
 @media only screen and (max-width: 800px) 
 {   
-    .about_general
-    {
-        width: 100%;
-    }
     .about_containers > * 
     {
         flex: 0 0 calc(100% - 14px);
