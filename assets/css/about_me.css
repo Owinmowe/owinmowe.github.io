@@ -5,6 +5,8 @@
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0 0 5px 10px white;
+    position: relative;
+    z-index: 2;
 }
 .about_general h2
 {
